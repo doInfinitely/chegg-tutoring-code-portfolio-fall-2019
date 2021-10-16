@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title>New York Times Assignment</title>
+        <script src="p5.js"></script>
+        <script src="p5.dom.js"></script>
+        <script type="text/javascript">
+            
+            function setup() {
+                noCanvas();
+            }
+            var api_key = "PNSCWuVA4Wd4yMYqyTCW1gnvLhpex0Ik"
+            
+            function blah() {
+                var query = document.getElementById("news").value;
+                var url = "https://api.nytimes.com/svc/search/v2/articlesearch.json?q=" + query + "&api-key=" + api_key;
+                loadJSON(url, getData);
+            }
+
+            function getData(data) {
+            var articles = data.response.docs;
+  
+            // Loop to get everything
+                for (var i = 0; i < articles.length; i++) {
+                    createElement('h1', articles[i].headline.main);
+                    createA(articles[i].web_url, "Link")
+                    createP(articles[i].snippet);
+                    if (articles[i].byline.person.length > 0) {
+                        createP(articles[i].byline.person[0].lastname + ', ' + articles[i].byline.person[0].firstname);
+                    }
+                    if (articles[i].multimedia.length > 0) {
+                        createA("https://nytimes.com/" + articles[i].multimedia[0].url, "Headline image");
+                    }
+                }
+            }
+        </script>
+    </head>
+    <body>
+	    <input type="text" id="news"></input>
+        <button onclick="blah()">Search/Query</button>
+    </body>
+</html>

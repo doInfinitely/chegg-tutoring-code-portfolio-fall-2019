@@ -1,0 +1,29 @@
+1.
+Customeres at the airport check-in counter:
+Queue, because queues are data structures specifically designed fore FIFO access patterns
+
+A list of items, random access:
+Array, because arrays are the only structure here that supports efficient random access
+
+A list of items, output items in opposite order
+A doubly-linked list, because if there is no need for random access then linked lists are useful for their low cost of insertion and deletion.
+
+A list of items, constant time search and update.
+A hashtable, because hashtables are are the only structure here that allow for constant time search and update.
+
+
+2.
+Algorithm:
+i) Insert the elements of list A into a hashtable and then lookup each of the elements of B in that hashtable to see if B is a subset of a
+
+ii)
+
+def isSubset(A, B):
+    hash = set(A)
+    for x in b:
+        if x not in hash:
+            return False
+    return True
+
+iii)
+This algorithm is O(n) where n is the number of elements in A, as the construction of the hashtable requires O(n) steps for each element of A. After the construction of the hashtable, each lookup of an item in B is O(1).

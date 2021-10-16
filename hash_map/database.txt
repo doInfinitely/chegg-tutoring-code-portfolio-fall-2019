@@ -1,0 +1,90 @@
+"Cart_Name" "River Raid (1982) (Activision)"
+"Cart_MD5" "393948436d1f4cc3192410bb918f9724"
+"Cart_Manufacturer" "Activision, Carol Shaw"
+"Cart_ModelNo" "AX-020, AX-020-04"
+
+"Cart_MD5" "026180bf641ff17d8577c33facf0edea"
+"Cart_Manufacturer" "Activision, Steve Cartwright"
+"Cart_Name" "Seaquest (1983) (Activision) (8K)"
+"Cart_ModelNo" "AX-022"
+
+"Cart_Manufacturer" "Activision, Bob Whitehead"
+"Cart_ModelNo" "AG-005, CAG-005, AG-005-04"
+"Cart_MD5" "0d90a0ee73d55539b7def24c88caa651"
+"Cart_Name" "Skiing (1980) (Activision) (16K)"
+
+"Cart_MD5" "0f95264089c99fc2a839a19872552004"
+"Cart_Manufacturer" "Activision, David Crane"
+"Cart_ModelNo" "AG-009, AG-009-04"
+"Cart_Name" "Freeway (1981) (Activision) (8K)"
+
+"Cart_MD5" "114c599454d32f74c728a6e1f71012ba"
+"Cart_ModelNo" "EAX-015, EAX-015-04I - 711 015-725"
+"Cart_Manufacturer" "Activision, Bob Whitehead - Ariola"
+"Cart_Name" "Chopper Command (1982) (Activision) (PAL)"
+
+"Cart_MD5" "1266b3fd632c981f3ef9bdbf9f86ce9a"
+"Cart_Manufacturer" "Activision, Bob Whitehead"
+"Cart_Name" "Private Eye (1984) (Activision) (PAL)"
+
+"Cart_MD5" "133b56de011d562cbab665968bde352b"
+"Cart_ModelNo" "AG-038-04"
+"Cart_Name" "Cosmic Commuter (1984) (Activision)"
+
+"Cart_ModelNo" "AX-018, AX-018-04"
+"Cart_MD5" "1782929e1c214b70fb6884f77c207a55"
+"Cart_Manufacturer" "Activision, David Crane"
+"Cart_Name" "Pitfall! (1982) (Activision)"
+
+"Cart_MD5" "000509d1ed2b8d30a9d94be1b3b5febb"
+"Cart_Manufacturer" "Greg Zumwalt"
+"Cart_Name" "Jungle Jane (2003) (Greg Zumwalt) (Hack)"
+"Cart_Note" "Hack of Pitfall!"
+
+"Cart_MD5" "0060a89b4c956b9c703a59b181cb3018"
+"Cart_ModelNo" "CM-008 - 712 008-720"
+"Cart_Name" "Cakewalk (1983) (CommaVid) (PAL)"
+
+"Cart_MD5" "007d18dedc1f0565f09c42aa61a6f585"
+"Cart_Manufacturer" "CCE"
+"Cart_ModelNo" "C-843"
+"Cart_Name" "Worm War I (1983) (CCE)"
+
+"Cart_MD5" "008543ae43497af015e9428a5e3e874e"
+"Cart_Manufacturer" "Retroactive"
+"Cart_Name" "Qb (V2.09) (PAL) (2001) (Retroactive)"
+
+"Cart_Manufacturer" "Sega - Beck-Tech, Steve Beck, Phat Ho"
+"Cart_Name" "Congo Bongo (1983) (Sega)"
+"Cart_MD5" "00b7b4cbec81570642283e7fc1ef17af"
+
+"Cart_Manufacturer" "20th Century Fox, Bill Aspromonte"
+"Cart_ModelNo" "11012"
+"Cart_Name" "Bank Heist (1983) (20th Century Fox)"
+"Cart_MD5" "00ce0bdd43aed84a983bef38fe7f5ee3"
+
+"Cart_MD5" "00ce76ad69cdc2fa36ada01ae092d5a6"
+"Cart_Manufacturer" "Bit Corporation"
+"Cart_ModelNo" "PGP214"
+"Cart_Name" "Cosmic Avenger (4 Game in One) (1983) (BitCorp) (PAL)"
+
+"Cart_Name" "Krull (CCE)"
+"Cart_MD5" "00dc28b881989c39a6cf87a892bd3c6b"
+"Cart_Manufacturer" "CCE"
+
+"Cart_ModelNo" "CX2639, CX2639P"
+"Cart_MD5" "00e19ebf9d0817ccfb057e262be1e5af"
+"Cart_Name" "Othello (1981) (Atari) (PAL) [no grid markers]"
+"Cart_Manufacturer" "Atari, Ed Logg, Carol Shaw"
+
+"Cart_MD5" "00e55b27fe2e96354cd21b8b698d1e31"
+"Cart_Name" "Phoenix (Unknown)"
+
+"Cart_MD5" "00eaee22034aff602f899b684c107d77"
+"Cart_Manufacturer" "Rainbow Vision - Suntek - Sunteck Corp"
+"Cart_ModelNo" "SS-001"
+"Cart_Name" "Time Race (1983) (Rainbow Vision) (PAL)"
+
+"Cart_Manufacturer" "Aaron Curtis"
+"Cart_Name" "AStar (NTSC)"
+"Cart_MD5" "00f7985c20b8bdf3c557fac4d3f26775"

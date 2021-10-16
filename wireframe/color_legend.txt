@@ -1,0 +1,5 @@
+Red #d7002a
+Light Gray #eeeeee
+Dark Gray #484848
+White #ffffff
+Black #000000

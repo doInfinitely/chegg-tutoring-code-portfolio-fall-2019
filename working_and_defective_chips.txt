@@ -1,0 +1,33 @@
+Problem 1.Let us revisit the chip testing problem. Recall that in this problem, we are given n chips which may be working or defective. A working chip behaves as follows: if we connect it to another chip, the original chip will correctly output whether the new connected chip is working or is defective. However, if we connect a defective chip to another chip, it may output any arbitrary answer.In the class, we saw that if strictly more than half the chips are working, then there is an algorithm that finds a working chip using O(n) tests. In this homework, we examine what will happen if the number of working chips is equal to the defective ones.(a) Prove that even when we only have a single working chip and a single defective chip (i.e.,n= 2), there is no algorithm that can find the working chip in general.
+
+(b) Give an algorithm that for any even number of chips n, assuming that the number of working chips is equal to the defective ones, can output a pair of chips such that in this pair, one of the chips is working and the other one is defective (the algorithm does not need to identify which chip is working/defective in this pair – this is crucial by part (a)).
+
+Assume there are n chips, c_1, c_2, ... c_n, n > 2, n is even and that n/2 chips are working.
+
+let f_x(i) be the output of chip c_n when connected to chip c_i, x != i. 
+let f_x(i) = 1 when c_x is a working chip and c_i is a working chip
+let f_x(i) = 0 when c_x is a working chip and c_i is a defective chip.
+
+The behavior of f_x(i), when x is a defective chip is arbitrary and unspecified.
+
+let c_x and c_y be two working chips, then for all i, i != x and i != y, c= f_x(i) = f_y(i).
+
+in natural language this means that the chips c_x and c_y agree on all other chips.
+
+furthermore if c_x and c_y are two working chips the we also have f_x(y) = f_y(x) = 1
+we might say chips c_x and c_y verify each other.
+
+if two chips agree on all other chips and verify each other we say that the two chips are in accord.
+
+The set of all working chips must all be mutually in accord.
+
+It is also possible, but not necessary that the set of all defective chips are also in accord, but a working chip
+and a defective chip cannot be in a set of mutually accordant chips together.
+
+There must be an mutually accordant set of chips of size n/2, since there are that many working chips.
+
+An algorithm to find one working chip and one defective chip must merely construct an accordant set of chips of size n/2
+and take one chip from the set and one chip that is outside of the set.
+
+Since every chip must report on every other chip, the runtime complexity of the algorithm will be O(n^2).
+

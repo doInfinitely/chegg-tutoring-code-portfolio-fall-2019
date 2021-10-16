@@ -1,0 +1,25 @@
+a) Three point geometry
+b) four line geometry
+c) four point geometry
+d) fano's geometry
+e) geometry of pappus
+f) geometry of desargus
+
+1) for each two distinct points, there exists exactly one line on both of them.
+1) a, c, d 
+2) each line has two or fewer other lines of the geometry parallel to it.
+2) a, b, c, d, e
+3) through a point not on a given line, there is exactly one line parallel to the given line.
+3) c, e
+4) each point of the geometry lies on exactly three lines of the geometry
+4) c, d, e, f
+5) all the axioms are also true statements in ordinary euclidean geometry
+5) none
+6) changing the last axiom results in young's geometry
+6) d
+7) for each set of three points, there is exactly one line containing them.
+7) none
+8) if a point is not on a given line, then there is at least one point on the line not lying on any line through the given point
+8) b, e, f 
+9) the lines through each point in the geometry contain every point in the geometry
+9) a, c, d

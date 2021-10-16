@@ -1,0 +1,36 @@
+1.
+a) A course has an aggregation relation to a student
+b) A classroom has no explicit relation to a professor or student. A classroom does have an association with a course, and a course has an aggregation relation with both professors and students
+c) Well, no explicitly mentioned model elements qualified for inheritence, but both professors and students have a name, and so it was sensible to invent a Person superclass for them both.
+
+2. It's better representated by a activity diagram over a sequence diagram, because an activity diagram has a way of representing exceptions. A sequence diagram shows object interactions arranged in a time sequence, while activity diagrams represent workflows of stepwise activities, with support for choice, iteration, and concurrency.
+3.
+Use Case: Do Homework
+Primary Actor: Student
+Secondary Actor(s): TA, Roommate
+Brief:
+    The student reads the list of problems given by the professor, and attempts to produce satisfactory work.
+
+Postconditions
+    Minimal Guarentees:
+    Success Guarentees:
+        The assginment is turned in to the TA
+        A grade of 70 or above is given for the assignment
+
+Preconditions:
+    The student goes to class and the assignment is present to the student
+
+Basic flow:
+    1. The TA hands out the assignment to the student.
+    2. The roommate stops practicing trumpet long enough for the student to have a moment's thought.
+    3. The student produces the assignment from their backpack.
+    4. The student reads and comprehends homework assignment.
+    5. The student tackles problems one at a time until the assigment is complete.
+    6. The student returns the completed assignment to their backpack.
+    7. The student produces the assignment at the next course meeting.
+    8. The student turns in the assignment to the TA
+    9. The TA grades the assignment
+
+Exceptions:
+    Somehow, between steps 6 and 7 in the basic flow, the assignment is lost to entropy. The student begs and pleads with the TA with large eyes and a sober voice until and extension is granted.
+

@@ -1,0 +1,22 @@
+You are hired to help the rebels fight the evil empire in Star Wars (!). The rebels have n spaceships and each space ship_i(1≤i≤n) has a certain powerp_i. Moreover, the empire has m bases whereeach basej(1≤j≤m) has a defensive power d_i and gold g_i. You know that each space ship can attack every base with defensive power strictly smaller than the ship’s own power and collect its golds. The rebels need to know that, for each of their space ships, what is the maximum amount of gold this spaceship can collect. Design an algorithm with running timeO((n+m)·logm) for this task.
+
+Algorithm:
+Sort the ships by increasing attack power.
+ Sor the bases first by decreasing gold stores. Then sort the bases by increasing defensive power using a stable sort.
+ 
+ Let s_1, s_2,... s_n be the sorted list of ships.
+ 
+ Let b_1, b_2, .. b_m be the final sorted list of bases.
+ 
+Iterate through the bases until a base is found that s_1 cannot attack. During the iteration keep track of the highest gold store of an attackable base.
+
+Once the unattackable base is found move to the next ship. The algorithm need not start over from the beginning of the bases or reset the highest gold store found,
+since any ship that s_1 can attack successfully, s_2 can also attack successfully. Continue until the the last ship is reached.
+
+Proof of correctness:
+Assume that ship s_i was incorrectly assigned a maximum profit of g_k, when there is another base j with higher profit that ship s_i can also attack. Via the description of the algorithm
+if there were such a base j, then we encountered it as we iterated through all the bases, either when considering ship s_i or any ship prior to it, so this is impossible
+
+Runtime Complexity:
+This algorithm requires the ships to be sorted (O(nlogn)), the bases to be sorted twice O((mlogm)) and then merely iterates through the bases and ships once O(m+n)
+and is thus O(nlogn + mlogm). If we assume without loss that m > n, then we can replace the n in the log with m to show that the algorithm is O((n+m)logm). 
